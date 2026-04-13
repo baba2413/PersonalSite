@@ -19,7 +19,7 @@ function Projects({item}) {
   return (
     <section>
         <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-row max-sm:flex-col items-center justify-between">
                 <div className="space-y-4">
                     <div className="text-md font-semibold">
                         {item.name}
@@ -73,7 +73,7 @@ function Timelines({item}) {
 
 export default function ResumeIntroWebpage() {
     const skills = [
-        "Python", "C", "C++", "Java"
+        "Python", "C", "C++", "Java", "Git", "Linux"
     ];
     const timeline = [
         {
@@ -163,8 +163,8 @@ export default function ResumeIntroWebpage() {
             <header className="max-w-4xl px-12 pt-12 pb-10">
                 <h1 className="text-3xl font-bold mb-4"> Jungsik Yoon</h1>
                 <div className="text-base space-y-1">
-                    <p>email@example.com</p>
-                    <p>github.com/yourname</p>
+                    <p>jungsik007@gmail.com</p>
+                    <p>github.com/baba2413</p>
                 </div>
             </header>
 
